@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(243, 243, 243) 0% 60%, rgb(255, 232, 196) 80% 100%);
+    min-height: 200px;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h2{
+    font-size: 30px;
+    transform: translate(120px , 0px);
+}
+
+.underline{
+    width: 200px;
+    height: 5px;
+    background: linear-gradient(to right, rgb(253, 225, 225), rgb(49, 255, 101),rgb(255, 241, 0));
+    transform: translate(-70px, 20px);
+    border-radius: 100px;
+}
+
+.reviews{
+    
+    height: 450px;
+    width: 350px;
+    margin-top: 5px;
+    background: rgb(141, 156, 165);
+    box-shadow: 5px 5px 10px -5px rgb(214, 233, 240), -5px -5px 10px -2px rgb(255, 207, 207), 5px 6px 2px -7px rgb(250, 232, 232);
+    
+}
+
+img{
+    height:150px;
+    width:200px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 30px 5px rgb(113, 90, 116);
+}
+#author{
+    margin-left: 120px;
+    font-size: 25px;
+    margin-top: 4px;
+}
+#job{
+    margin-left: 150px;
+    margin-top: -20px;
+    color: rgb(146, 2, 2);
+}
+#info{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 5px ;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+#rando{
+    margin-left: 150px;
+    margin-top: 20px;
+    background: rgb(146, 2, 200);
+    color: white;
+}
+
+[class*=-button]{
+    background: rgb(146, 2, 2);
+    color: white;
+    margin-left: 10px;
+    box-shadow: 5px 2px 5px 0px black;
+}
+
+[class*=-button]:hover{
+    background: rgb(63, 19, 255);
+}
